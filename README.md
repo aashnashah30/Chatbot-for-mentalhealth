@@ -1,10 +1,10 @@
-#Chatbot for mental health
-This project had been created as a part of a software group project in the 4th sem of B.Tech Artificial Intelligence and Machine Learning.
+Chatbot for mental health
+This project was created as part of a software group project in the 4th sem of B.Tech Artificial Intelligence and Machine Learning.
 During the covid era and post that, mental health has been a subject of great interest, which has also been our motivation behind creating this project. 
-This chatbot provides you an AI based therapist that helps you overcome mental health issues or provides you with information or basic knowledge about mental health, therapists near you, etc. 
+This chatbot provides you an AI-based therapist that helps you overcome mental health issues or provides you with information or basic knowledge about mental health, therapists near you, etc. 
 
 Classifications of chatbots
-Chatbots can be classified on the basis of different attributes -
+Chatbots can be classified based on different attributes -
 Our research was related to the design approaches, namely, rule-based, retrieval-based, and generative-based.
 
 Rule-based Chatbots: A rule-based chatbot uses a simple rule-based mapping or pattern matching to select responses from sets of predefined responses. These systems don't produce any new text; instead, they choose an answer from a predetermined list.
@@ -17,7 +17,7 @@ Note that to train the retrieval chatbot, the CSV file was manually converted to
 
 The repository consists of three notebooks for the three types of chatbots.
 
-For rule-based, TF-IDF was used with NLTK's tokenizer for data-preprocessing. The processed data was tested against the expected outcome and cosine similarity was used for evaluation.
+For rule-based, TF-IDF was used with NLTK's tokenizer for data preprocessing. The processed data was tested against the expected outcome and cosine similarity was used for evaluation.
 
 For retrieval-based, several Machine Learning and Deep Learning models were trained,
 
@@ -26,7 +26,7 @@ LSTM
 Bi - LSTM
 GRU
 CNN Retrieval models are trained on JSON files. For all the above models, regularization was used, and based on training and validation accuracies and loss, the best model was kept for final comparisons. It was observed that the CNN architecture gave the best results. The model consisted of 3 layers - convolutional neural network (CNN) + an embedding layer + and a fully connected layer.
-For generative-based chatbots, NLP was used since NLP enables chatbots to learn and mimic the patterns and styles of human conversation. It gives you the feeling that you are talking to a human, not a robot. It maps user input to an intent, with the aim of classifying the message for an appropriate predefined possible response.
+For generative-based chatbots, NLP was used since NLP enables chatbots to learn and mimic the patterns and styles of human conversation. It gives you the feeling that you are talking to a human, not a robot. It maps user input to an intent, to classify the message for an appropriate predefined possible response.
 
 An encoder-decoder model was trained on the CSV file. Endoder-decoder is a seq2seq model, also called the encoder-decoder model uses Long Short Term Memory- LSTM for text generation from the training corpus.
 What does the seq2seq or encoder-decoder model do in simple words? It predicts a word given in the user input, and then each of the next words is predicted using the probability of likelihood of that word occurring.

@@ -1,7 +1,3 @@
-This project was created as part of a software group project in the 4th sem of B.Tech Artificial Intelligence and Machine Learning.
-During the covid era and post that, mental health has been a subject of great interest, which has also been our motivation behind creating this project. 
-This chatbot provides you an AI-based therapist that helps you overcome mental health issues or provides you with information or basic knowledge about mental health, therapists near you, etc. 
-
 Classifications of chatbots
 Chatbots can be classified based on different attributes -
 Our research was related to the design approaches, namely, rule-based, retrieval-based, and generative-based.
